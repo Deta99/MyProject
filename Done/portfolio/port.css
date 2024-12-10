@@ -3,7 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
 .header {
     background-color: rgb(74, 74, 74);
     color: white;
@@ -16,7 +15,6 @@ main {
     gap: 20px; 
     padding: 20px;
 }
-
 .profile-section {
     display: flex;
     align-items: center;
@@ -24,61 +22,53 @@ main {
     gap: 50px;
     padding: 20px;
 }
-
 .profile-pic {
     width: 200px;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%; /* Makes the image circular */
-    overflow: hidden; /* Ensures the image doesn't overflow */
-    border: 5px solid #ffffff; /* Adds a white border */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
-    object-fit: cover  ; /* Ensures the image fills the circle proportionally */
-    background-color: #f0f0f0; /* Adds a background in case of transparent areas */
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 5px solid #ffffff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    object-fit: cover  ; 
+    background-color: #f0f0f0; 
 }
 .bio-container {
-    width: 100%;          /* Adjust to your desired width */
-    max-width: 800px;     /* Maximum width for better readability */
-    margin: 0 auto;       /* Center the container */
+    width: 100%;          
+    max-width: 800px;    
+    margin: 0 auto; 
     padding: 20px;
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;     /* Hides overflow content */
-    text-align: left;     /* Align text to the left */
-    line-height: 1.6;     /* Makes the text more readable */
+    overflow: hidden;     
+    text-align: left;     
+    line-height: 1.6;    
 }
-
-/* Optional: Style for heading */
 .bio-container h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 15px;
 }
-
-/* Ensure text is properly spaced and no overflow happens */
 .bio-container p {
     font-size: 16px;
     color: #555;
     margin-bottom: 10px;
 }
-
 .timeline, .projects, .skills, .contact {
     padding: 20px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .header {
     background-color: rgb(74, 74, 74);
     color: white;
@@ -91,7 +81,6 @@ main {
     gap: 20px; 
     padding: 20px;
 }
-
 .profile-section {
     display: flex;
     align-items: center;
@@ -99,87 +88,73 @@ main {
     gap: 50px;
     padding: 20px;
 }
-
 .profile-pic {
     width: 200px;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%; /* Makes the image circular */
-    overflow: hidden; /* Ensures the image doesn't overflow */
-    border: 5px solid #ffffff; /* Adds a white border */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
-    object-fit: cover;  /* Ensures the image fills the circle proportionally */
-    background-color: #f0f0f0; /* Adds a background in case of transparent areas */
+    border-radius: 50%;
+    overflow: hidden; 
+    border: 5px solid #ffffff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    object-fit: cover;  
+    background-color: #f0f0f0; 
 }
 .bio-container {
-    width: 100%;          /* Adjust to your desired width */
-    max-width: 800px;     /* Maximum width for better readability */
-    margin: 0 auto;       /* Center the container */
+    width: 100%;          
+    max-width: 800px;     
+    margin: 0 auto;       
     padding: 20px;
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;     /* Hides overflow content */
-    text-align: left;     /* Align text to the left */
-    line-height: 1.6;     /* Makes the text more readable */
+    overflow: hidden;     
+    text-align: left;    
+    line-height: 1.6;     
 }
-
-/* Optional: Style for heading */
 .bio-container h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 15px;
 }
-
-/* Ensure text is properly spaced and no overflow happens */
 .bio-container p {
     font-size: 16px;
     color: #555;
     margin-bottom: 10px;
 }
-
-/* Work Experience Timeline */
 .timeline {
     flex: 1;
     width: 100%;
     padding: 20px;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #a7e7a0;
-    margin: 0 auto; /* Center the section */
+    margin: 0 auto; 
 }
-
 .timeline h3 {
     font-size: 24px;
     margin-bottom: 15px;
     color: #333;
 }
-
 .timeline ul {
     list-style: none;
     padding: 0;
 }
-
 .timeline li {
     font-size: 16px;
     color: #555;
     margin-bottom: 15px;
 }
-
 .timeline li strong {
     font-weight: bold;
 }
-
 .timeline li p {
     font-size: 14px;
     margin-left: 15px;
 }
-
-/* Projects Showcase */
 .projects {
     width: 100%;
     padding: 20px;
@@ -189,30 +164,24 @@ main {
     background-color: #add8e6;
     margin: 0 auto;
 }
-
 .projects h3 {
     font-size: 24px;
     margin-bottom: 15px;
     color: #333;
 }
-
 .projects .project {
     margin-bottom: 20px;
 }
-
 .projects .project h4 {
     font-size: 20px;
     color: #333;
     margin-bottom: 10px;
 }
-
 .projects .project p {
     color: #555;
     font-size: 14px;
     margin-left: 15px;
 }
-
-/* Skills Chart */
 .skills {
     padding: 20px;
     text-align: left;
@@ -222,32 +191,25 @@ main {
     width: 100%;
     margin: 0 auto;
 }
-
 .skills h4 {
     font-size: 20px;
     margin-top: 15px;
     color: #444;
 }
-
 .skills ul {
-    list-style-type: disc; /* Adds bullet points */
-    padding-left: 20px; /* Indent list items */
+    list-style-type: disc; 
+    padding-left: 20px; 
 }
-
 .skills ul li {
     font-size: 16px;
     color: #555;
     margin-bottom: 5px;
 }
-
 .skills p {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
 }
-
-
-/* Contact Information */
 .contact {
     width: 100%;
     padding: 20px;
@@ -257,24 +219,20 @@ main {
     background-color: #ffcccc;
     margin: 0 auto;
 }
-
 .contact h3 {
     font-size: 24px;
     margin-bottom: 15px;
     color: #333;
 }
-
 .contact p {
     font-size: 16px;
     color: #555;
     margin-bottom: 10px;
 }
-
 .contact a {
     color: #007BFF;
     text-decoration: none;
 }
-
 .contact a:hover {
     text-decoration: underline;
 }
